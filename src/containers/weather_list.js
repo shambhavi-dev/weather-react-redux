@@ -49,6 +49,13 @@ class WeatherList extends Component {
 }
 
 function mapStateToProps(state) {
+  var x = 2; 
+  if (x < 0) {
+    return { weather: state.weather };
+  }
+  else {
+    return { weather: state.weather };
+  }
   return { weather: state.weather };
 }
 
